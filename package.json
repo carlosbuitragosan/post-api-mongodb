@@ -16,7 +16,8 @@
     "dev": "nodemon ./src/index.ts",
     "test": "NODE_ENV=test jest",
     "seed": " node ./build/models/seed.js",
-    "pretty": "npx prettier --write ."
+    "pretty": "npx prettier --write .",
+    "build": "npx tsc -p ."
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",
