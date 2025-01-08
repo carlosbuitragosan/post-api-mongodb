@@ -18,7 +18,7 @@
     "seed": " node ./build/models/seed.js",
     "pretty": "npx prettier --write .",
     "start": "node ./build/index.js",
-    "build": "npx tsc -p ."
+    "build": "npm install && tsc"
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",
